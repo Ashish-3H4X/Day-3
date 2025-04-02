@@ -132,10 +132,22 @@ var y = 123e-5;
 
 document.getElementById('demo12').innerHTML = `
   //  Here X is 12300000<br>
-  var x = 123e5;<br>
+         var x = 123e5;<br>
   // Here y is 0.00123 <br>
-  var y = 123e-5;<br>
+          var y = 123e-5;<br>
     Result :<br> 
- n${x} <br>
+ ${x} <br>
   ${y}
   `
+
+//JavaScript boolean 
+
+  var x = 10 ;
+  var y =10;
+  var t = 12;
+
+console.log(x === y) // it return true
+console.log(y === t) // it return false 
+
+
+  
