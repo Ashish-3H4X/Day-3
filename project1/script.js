@@ -74,13 +74,29 @@ const date = new  Date ("03-03-2025");
 
  //let adding the  number number with string 
 
-  var x = 16+4+"Volvo"
+  var y = 16+4+"Volvo";
 
   document.getElementById('demo8').innerHTML=`
   
   //let adding the  number number with string <br>
 
-    var x = 16+4+"Volvo"<br>
+    var y = 16+4+"Volvo"<br>
     result = 
-     ${X}
+   ${y}
   `
+
+
+
+  //Java Script type are Dynamic 
+
+   let z; 
+   z=10;
+   z="Ashish";
+
+ document.getElementById('demo9').innerHTML=`
+    let z;  // now z is undefined <br>
+    z=10; // now z is number <br>
+     z="Ashish"; // now z is string <br>
+     result = 
+    ${z}
+ `
