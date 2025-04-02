@@ -100,3 +100,20 @@ const date = new  Date ("03-03-2025");
      result = 
     ${z}
  `
+
+
+  // JavaScript string   it is   assign in double or single qoute \
+
+ var carName1= "Volvo XC60";
+
+ var carName2 = 'Volvo XC60';
+
+  document.getElementById('demo10').innerHTML=`
+  // using double quotes<br>
+ var carName1= "Volvo XC60"; <br>
+// using single quotes <br>
+ var carName2 = 'Volvo XC60'; <br>
+
+ 
+
+  `
