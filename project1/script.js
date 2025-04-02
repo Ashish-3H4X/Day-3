@@ -151,3 +151,13 @@ console.log(y === t) // it return false
 
 
   
+// JavaScript Array
+
+
+ const array = ["rahul", "yogesh"];
+  document.getElementById('demo13').innerHTML=`
+  // JavaScript Array <br>
+   const array = ["rahul", "yogesh"]; <br>
+   ${array} 
+   
+  `;
