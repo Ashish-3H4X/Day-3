@@ -72,3 +72,15 @@ const date = new  Date ("03-03-2025");
  
  `
 
+ //let adding the  number number with string 
+
+  var x = 16+4+"Volvo"
+
+  document.getElementById('demo8').innerHTML=`
+  
+  //let adding the  number number with string <br>
+
+    var x = 16+4+"Volvo"<br>
+    result = 
+     ${X}
+  `
