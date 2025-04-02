@@ -113,7 +113,16 @@ const date = new  Date ("03-03-2025");
  var carName1= "Volvo XC60"; <br>
 // using single quotes <br>
  var carName2 = 'Volvo XC60'; <br>
-
- 
-
   `
+
+  //javaScript number
+
+  var x = 12;
+  var y = 3.5;
+   document.getElementById('demo11').innerHTML=`
+ // without  decimals  <br>
+ var x = 12;<br>
+// with decimals point  <br>
+  var y = 3.5;
+
+   `
